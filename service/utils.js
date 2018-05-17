@@ -1,6 +1,6 @@
 const USER = 'wupengFEX';
 const HOST = 'https://api.github.com/';
-const TOKEN = '6e6fb9d6d1f377665ef68f2b3001c75429e45767';
+const TOKEN = 'd7aa1b9c06b4e411e2f49dafcd68cc0bae883a9e';
 
 export function Github(obj) {
 }

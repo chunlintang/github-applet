@@ -1,7 +1,7 @@
 <template name="repositories">
     <view class="repo-icon">
-        <image class="fork-icon" wx:if="{{item.fork}}" src="../../static/imgs/icon/git-branch.png"></image>
-        <image class="clone-icon" wx:else src="../../static/imgs/icon/repo-clone.png"></image>
+        <image class="fork-icon" wx:if="{{item.fork}}" src="../../static/imgs/git-branch.png"></image>
+        <image class="clone-icon" wx:else src="../../static/imgs/repo-clone.png"></image>
     </view>
     <view class="title">
         <a href="{{item.owner.html_url}}">{{item.owner.login}}/</a>
@@ -9,7 +9,7 @@
     </view>
     <view wx:if="{{item.description}}" class="desc">{{item.description}}</view>
     <view class="text-gray">
-        <image class="icon-p star-icon" src="../../static/imgs/icon/star.png"></image>
+        <image class="icon-p star-icon" src="../../static/imgs/star.png"></image>
         <span class="icon-v">{{item.stargazers_count}}</span>
         <span wx:if="{{item.language}}" class="language-color icon-p" style="background-color:#e34c26;"></span>
         <span wx:if="{{item.language}}" class="icon-v">{{item.language}}</span>
