@@ -1,5 +1,6 @@
 {
     "pages": [
+        "pages/auth/auth",
         "pages/repositories/repositories",
         "pages/stars/stars",
         "pages/followers/followers",

@@ -1,6 +1,7 @@
 import {
     Github
 } from '../../service/utils'
+const app = getApp();
 
 Page({
     page: 1,
@@ -21,7 +22,7 @@ Page({
         let self = this;
         wx.showLoading();
         self.github.getRepo({
-            url: 'users/wupengFEX/repos',
+            url: 'users/' + app.globalData.user + '/repos',
             params: {
                 page: self.page
             }

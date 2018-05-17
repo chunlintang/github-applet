@@ -1,0 +1,5 @@
+<view class="container">
+	<input type="text" placeholder="Please enter GitHub user name!" confirm-type="search" bindinput="inputUser" />
+	<input type="text" placeholder="please enter GitHub token" confirm-type="search" bindinput="inputToken" />
+	<button bindtap="search"> Enter </button>
+</view>

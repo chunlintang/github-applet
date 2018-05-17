@@ -1,6 +1,7 @@
 import {
     Github
 } from '../../service/utils'
+const app = getApp();
 
 Page({
     page: 1,
@@ -22,7 +23,7 @@ Page({
         let self = this;
         wx.showLoading();
         self.github.getRepo({
-            url: 'users/wupengFEX/following',
+            url: 'users/' + app.globalData.user + '/following',
             params: {
                 page: self.page
             }
@@ -35,7 +36,6 @@ Page({
             else {
                 let result = self.data.followers.concat(data);
                 self.count += data.length;
-                console.log(self.count);
                 self.setData({
                     followers: result,
                     page: self.page++

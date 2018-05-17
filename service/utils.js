@@ -1,6 +1,5 @@
-const USER = 'wupengFEX';
 const HOST = 'https://api.github.com/';
-const TOKEN = 'd7aa1b9c06b4e411e2f49dafcd68cc0bae883a9e';
+const app = getApp();
 
 export function Github(obj) {
 }
@@ -14,7 +13,7 @@ Github.prototype.getRepo = function (p, cb) {
         url: HOST + p.url,
         method: p.method || 'get',
         header: {
-            Authorization: 'token ' + TOKEN
+            Authorization: 'token ' + app.globalData.token
         },
         data: p.params,
         success: res => {

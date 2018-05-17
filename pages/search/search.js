@@ -1,6 +1,7 @@
 import {
     Github
 } from '../../service/utils'
+const app = getApp();
 
 Page({
     maxFeeds: 30,
