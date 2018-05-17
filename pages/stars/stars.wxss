@@ -1,0 +1,14 @@
+@import "../common/repositories/repositories.wxss"
+.container {
+	overflow: hidden;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+.item {
+	position:relative;
+	display: block;
+	text-align: left;
+    padding: 20rpx 20rpx 20rpx 60rpx;
+    border-top: 1rpx solid #eaecef;
+    word-wrap: break-word;
+    word-break: break-all;
+}

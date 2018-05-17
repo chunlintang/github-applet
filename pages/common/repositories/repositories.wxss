@@ -1,0 +1,58 @@
+.repo-icon {
+	position: absolute;
+	width: 32rpx;
+	height: 32rpx;
+	text-align: center;
+    vertical-align: bottom;
+    top: 10rpx;
+    left: 24rpx;
+    color: #586069;
+    display: inline-block;
+    fill: currentColor;
+    margin-top: 8rpx !important;
+}
+.fork-icon {
+	width: 20rpx;
+	height: 28rpx;
+}
+.clone-icon {
+	width: 24rpx;
+	height: 32rpx;
+}
+.text-gray {
+	font-size: 24rpx;
+	display: flex;
+	flex-direction: row;
+    align-items: center;
+    margin-top: 16rpx;
+    font-size: 20rpx;
+}
+.star-icon {
+	width:25rpx;
+	height:28rpx;
+}
+.icon-p {
+	margin-right: 3px;
+}
+.icon-v {
+	margin-right: 10px;
+}
+.language-color {
+	width: 22rpx;
+    height: 22rpx;
+    border-radius: 50%;
+    background: red;
+}
+.title {
+	font-size: 26rpx;
+	line-height: 26rpx;
+	color: #0366d6;
+    text-decoration: none;
+    display: block;
+}
+.desc {
+	line-height: 30rpx;
+	font-size: 20rpx;
+	margin-top: 16rpx;
+	color: #586069;
+}

@@ -1,0 +1,11 @@
+@import "../common/user/user.wxss"
+.item {
+	display: flex;
+	align-items: center;
+	padding: 20rpx 10rpx 20rpx 0rpx;
+	margin-left:130rpx;
+	border-top: 1rpx solid #eaecef;
+	position: relative;
+	font-size: 26rpx;
+	margin-right:10px;
+}

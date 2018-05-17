@@ -1,0 +1,6 @@
+<import src="../common/repositories/repositories.wxml"/>
+<view class="container">
+    <view class="item" wx:for="{{repos}}" wx:key="{{id}}">
+        <template is="repositories" data="{{item}}"></template>
+    </view>
+</view>

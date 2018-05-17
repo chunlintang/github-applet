@@ -1,0 +1,6 @@
+<import src="../common/user/user.wxml"/>
+<view class="container">
+    <view class="item" wx:for="{{followers}}" wx:key="{{id}}">
+        <template is="user" data="{{item}}"></template>
+    </view>
+</view>

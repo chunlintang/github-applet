@@ -1,0 +1,48 @@
+{
+    "pages": [
+        "pages/repositories/repositories",
+        "pages/stars/stars",
+        "pages/followers/followers",
+        "pages/following/following",
+        "pages/search/search"
+    ],
+    "window": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "Github",
+        "enablePullDownRefresh": true
+    },
+    "tabBar": {
+        "list": [
+            {
+                "pagePath": "pages/repositories/repositories",
+                "text": "Repositories",
+                "iconPath": "static/imgs/icon/repositories.png",
+                "selectedIconPath": "static/imgs/icon/repositories-selected.png"
+            },
+            {
+                "pagePath": "pages/stars/stars",
+                "text": "Stars",
+                "iconPath": "static/imgs/icon/stars.png",
+                "selectedIconPath": "static/imgs/icon/stars-selected.png"
+            },
+            {
+                "pagePath": "pages/followers/followers",
+                "text": "Followers",
+                "iconPath": "static/imgs/icon/followers.png",
+                "selectedIconPath": "static/imgs/icon/followers-selected.png"
+            },
+            {
+                "pagePath": "pages/following/following",
+                "text": "Following",
+                "iconPath": "static/imgs/icon/following.png",
+                "selectedIconPath": "static/imgs/icon/following-selected.png"
+            },
+            {
+                "pagePath": "pages/search/search",
+                "text": "Search",
+                "iconPath": "static/imgs/icon/search.png",
+                "selectedIconPath": "static/imgs/icon/search-selected.png"
+            }
+        ]
+    }
+}

@@ -1,0 +1,20 @@
+<import src="../common/repositories/repositories.wxml"/>
+<import src="../common/user/user.wxml"/>
+<view>
+	<view class="nav">
+		<view class="{{selected ? 'high-light' : 'default'}}" bindtap="repoSear">Responsitories</view>
+    	<view class="{{!selected ? 'high-light' : 'default'}}" bindtap="userSearch">User</view>
+	</view>
+	<input type="text" placeholder="输入关键词" confirm-type="search" bindconfirm="search" bindinput="input" />
+	<view class="container">
+		<view hidden="{{!selected}}" class="item" wx:for="{{repoResults}}" wx:key="{{id}}">
+			<template is="repositories" data="{{item}}"></template>
+		</view>
+	</view>
+	<view class="container">
+	    <view hidden="{{selected}}" class="item" wx:for="{{userResults}}" wx:key="{{id}}">
+	        <template is="user" data="{{item}}"></template>
+	    </view>
+	</view>
+
+</view>

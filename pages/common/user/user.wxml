@@ -1,0 +1,4 @@
+<template name="user">
+    <a class="photo-link" href="{{item.url}}"><image class="photo" src="{{item.avatar_url}}"></image></a>
+    <a href="{{item.url}}"><span class="name">{{item.login}}</span></a>
+</template>

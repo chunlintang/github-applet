@@ -1,0 +1,15 @@
+.photo-link {
+	display: block;
+	position: absolute;
+	width: 100rpx;
+	height: 100rpx;
+	left: -110rpx;
+}
+.photo {
+	width: 100rpx;
+	height: 100rpx;
+	border-radius: 50%;
+}
+.name {
+	line-height: 100rpx;
+}
